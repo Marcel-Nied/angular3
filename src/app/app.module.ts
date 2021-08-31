@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { CurrencyPipe } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 import { ReactiveFormsModule } from '@angular/forms';
@@ -22,7 +23,8 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
     AppComponent,
     TopBarComponent,
     ProductListComponent,
-    ProductAlertsComponent
+    ProductAlertsComponent,
+    CurrencyPipe
   ],
   bootstrap: [AppComponent]
 })
